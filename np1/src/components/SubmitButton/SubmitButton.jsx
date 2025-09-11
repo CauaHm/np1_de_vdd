@@ -1,6 +1,6 @@
-function SubmitButton({nome, type}) {
+function SubmitButton() {
     return (
-      <button type="submit">
+      <button className="SubmitButton" type="submit">
         Criar
       </button>
     )

@@ -1,8 +1,8 @@
 function Header() {
     return (
-      <form method="get"> 
+      <header> 
           
-      </form>
+      </header>
     )
   }
   export default Header

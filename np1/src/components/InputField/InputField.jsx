@@ -1,8 +1,8 @@
 function InputField({nome, type}) {
     return (
-      <div> 
+      <div className="InputField"> 
           <label>{nome}</label>
-          <input type={type} id=""  required/>
+          <input className="InputField_input" type={type} required/>
       </div>
     )
   }

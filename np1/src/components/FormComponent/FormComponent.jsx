@@ -3,8 +3,8 @@ import SubmitButton from "../SubmitButton/SubmitButton"
 
 function FormComponent() {
   return (
-    <form method="get"> 
-        <h1>Cadastro</h1>
+    <form className="FormComponent"> 
+        <h1 className="FormComponent_h1">Cadastro</h1>
         <InputField nome="Nome" type="text"/>
         <InputField nome="Email" type="email"/>
         <InputField nome="Senha" type="password"/>

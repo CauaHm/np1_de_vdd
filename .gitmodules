@@ -1,0 +1,3 @@
+[submodule "np1_de_vd"]
+	path = np1_de_vd
+	url = https://github.com/CauaHm/np1_de_vdd.git

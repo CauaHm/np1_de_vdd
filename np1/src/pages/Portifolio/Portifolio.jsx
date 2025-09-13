@@ -2,7 +2,6 @@ import styles from "./styles.module.css";
 import strogonoff from "../../assets/imgs/Strogonoff.jpg";
 import cocaCola from "../../assets/imgs/cocaCola.jpg";
 import parmegiana from "../../assets/imgs/parmegiana.jpg";
-import Models from "../../Models/Models";
 
 function Portifolio() {
   const strogonoffImg = {
@@ -18,7 +17,6 @@ function Portifolio() {
   };
 
   return (
-    <Models>
       <main className={styles.main}>
         <div className={styles.div}>
           <div className={styles.img} style={strogonoffImg}></div>
@@ -52,7 +50,6 @@ function Portifolio() {
           </div>
         </div>
       </main>
-    </Models>
   );
 }
 export default Portifolio;

@@ -15,6 +15,7 @@
 }
 
 .Header_list_item {
+  color: #fff;
   cursor: pointer;
   transition: .2s ease-in-out;
 }

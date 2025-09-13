@@ -1,12 +1,11 @@
 import InputField from "../../components/InputField/InputField";
 import SubmitButton from "../../components/SubmitButton/SubmitButton";
-import Models from "../../Models/Models";
 import styles from './styles.module.css'
 
 function Form() {
   return (
-    <Models>
-      <form className={styles.FormComponent}>
+    <div className={styles.FormComponent}>
+      <form className={styles.Form}>
         <h1 className={styles.Form_h1}>Cadastro</h1>
         <InputField nome="Nome" type="text" />
         <InputField nome="Email" type="email" />
@@ -14,7 +13,7 @@ function Form() {
         <InputField nome="Confirmação de Senha" type="password" />
         <SubmitButton />
       </form>
-    </Models>
+    </div>
   );
 }
 export default Form;

@@ -2,12 +2,14 @@
   height: 100%;
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .div  {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: auto;
   height: 100%;
 }
 

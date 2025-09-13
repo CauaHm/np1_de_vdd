@@ -22,3 +22,9 @@
 .FormComponent_h1 {
   font-size: 3rem;
 }
+
+@media screen and (max-width: 462px) {
+  .Form {
+    width: 350px;
+  }
+}

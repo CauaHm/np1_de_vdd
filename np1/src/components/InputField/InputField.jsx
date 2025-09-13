@@ -1,8 +1,10 @@
+import styles from './styles.module.css'
+
 function InputField({nome, type}) {
     return (
-      <div className="InputField"> 
+      <div className={styles.InputField}> 
           <label>{nome}</label>
-          <input className="InputField_input" type={type} required/>
+          <input className={styles.InputField_input} type={type} required/>
       </div>
     )
   }

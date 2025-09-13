@@ -1,0 +1,14 @@
+.InputField {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 8px;
+  font-weight: 700;
+}
+
+.InputField_input {
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid #fff;
+}

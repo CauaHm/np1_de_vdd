@@ -1,6 +1,8 @@
+import styles from './styles.module.css'
+
 function SubmitButton() {
     return (
-      <button className="SubmitButton" type="submit">
+      <button className={styles.SubmitButton} type="submit">
         Criar
       </button>
     )

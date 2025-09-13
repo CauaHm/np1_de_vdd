@@ -1,0 +1,12 @@
+.FormComponent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #fff;
+  width: 450px;
+  text-align: center;
+}
+
+.FormComponent_h1 {
+  font-size: 3rem;
+}

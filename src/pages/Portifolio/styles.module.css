@@ -43,5 +43,6 @@
   }
   .div {
     flex-direction: column-reverse;
+    gap: 20px;
   }
 }

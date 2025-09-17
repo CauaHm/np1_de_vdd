@@ -1,6 +1,6 @@
 import InputField from "../../components/InputField/InputField";
 import SubmitButton from "../../components/SubmitButton/SubmitButton";
-import styles from './styles.module.css'
+import styles from "./styles.module.css";
 
 function Form() {
   return (

@@ -17,3 +17,9 @@
 .SubmitButton:hover {
   opacity: 1;
 }
+
+@media screen and (max-width: 462px) {
+  .SubmitButton{
+    opacity: 1;
+  }
+}
